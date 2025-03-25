@@ -1,0 +1,24 @@
+[workspace]
+authors = ["The NorESM developers"]
+channels = ["conda-forge", "main", "r", "msys2"]
+name = "adf_v0.11, For NorESM"
+platforms = ["linux-64"]
+version = "0.11.0"
+
+[tasks]
+run-adf-diag="./run_adf_diag"
+
+[dependencies]
+pyyaml = "6.0.*"
+scipy = "1.10.0.*"
+cartopy = "0.21.1.*"
+netcdf4 = "1.6.2.*"
+xarray = "2023.1.0.*"
+matplotlib = "3.6.3.*"
+pandas = "1.5.3.*"
+pint = "0.16.*"
+xskillscore = "0.0.5.*"
+geocat-comp = "2022.8.0.*"
+python = "3.11.*"
+nco = ">=5.1.5,<6"
+ncl = ">=6.6.2,<7"
