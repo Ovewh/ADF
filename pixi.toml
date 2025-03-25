@@ -2,7 +2,6 @@
 channels = ["conda-forge", "main", "r", "msys2"]
 name = "ADF"
 platforms = ["linux-64"]
-version = "0.11.0"
 
 [tasks]
 run-adf-diag="./run_adf_diag"
