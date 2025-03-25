@@ -1,5 +1,4 @@
-[workspace]
-authors = ["The NorESM developers"]
+[project]
 channels = ["conda-forge", "main", "r", "msys2"]
 name = "ADF"
 platforms = ["linux-64"]
